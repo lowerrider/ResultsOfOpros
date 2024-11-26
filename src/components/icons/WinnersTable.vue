@@ -8,7 +8,7 @@
           <th>ЗАГАДОЧНЫЙ МАЙЯ</th>
           <th>ТЕКИЛА ЛЮБОВЬ</th>
           <th>ОСТРЫЙ КАК ПЕРЕЦ ЧИЛИ</th>
-          <th>ГРЯЗНЫЙ САНЧЕС</th>
+          <th>CЛАВНЫЙ САНЧЕС</th>
         </tr>
       </thead>
       <tbody>
@@ -18,7 +18,8 @@
               <li
                 v-for="member in sortedNominations(0)"
                 :key="member.personID"
-                class="nominee">
+                class="nominee"
+              >
                 <span class="name">{{ member.title }}</span>
                 <span class="votes">{{ member.votes }}</span>
               </li>
@@ -29,7 +30,8 @@
               <li
                 v-for="member in sortedNominations(1)"
                 :key="member.personID"
-                class="nominee">
+                class="nominee"
+              >
                 <span class="name">{{ member.title }}</span>
                 <span class="votes">{{ member.votes }}</span>
               </li>
@@ -40,7 +42,8 @@
               <li
                 v-for="member in sortedNominations(2)"
                 :key="member.personID"
-                class="nominee">
+                class="nominee"
+              >
                 <span class="name">{{ member.title }}</span>
                 <span class="votes">{{ member.votes }}</span>
               </li>
@@ -51,7 +54,8 @@
               <li
                 v-for="member in sortedNominations(3)"
                 :key="member.personID"
-                class="nominee">
+                class="nominee"
+              >
                 <span class="name">{{ member.title }}</span>
                 <span class="votes">{{ member.votes }}</span>
               </li>
@@ -62,7 +66,8 @@
               <li
                 v-for="member in sortedNominations(4)"
                 :key="member.personID"
-                class="nominee">
+                class="nominee"
+              >
                 <span class="name">{{ member.title }}</span>
                 <span class="votes">{{ member.votes }}</span>
               </li>
