@@ -10,5 +10,5 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
-  base: "/ResultsOfOpros/", // Замените <REPO> на имя вашего репозитория
+  base: "/ResultsOfOprosNow/", // Замените <REPO> на имя вашего репозитория
 });
